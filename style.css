@@ -48,7 +48,7 @@ body {
   font-family: fantasy;
   margin-top: 50px;
 }
-.article {
+/* .article {
   height: 300px;
   width: 300px;
 }
@@ -62,7 +62,7 @@ body {
 .article a {
   color: rgb(206, 23, 154);
   font-size: 20px;
-}
+} */
 footer {
   height: 100px;
   background-color: black;
@@ -199,3 +199,105 @@ h6 {
   font-size: 15px;
   text-decoration: underline;
 }
+
+/* Media queries for tablet */
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    /* style sheet for index page */
+    .header {
+        height: 200px;
+        font-size: 80px;
+      }
+      .nav {
+        gap: 20px;
+      }
+      
+      .nav a {
+        color: white;
+        font-size: 30px;
+      }
+
+      .main h4 {
+        font-size: 60px;
+      }
+      footer {
+        background-size: 350px;
+        background-position: center;
+        font-size: 40px;
+      }
+      /* style for cretepage */
+      .header1 {
+        height: 200px;
+        font-size: 80px;
+        padding: 20px;
+      }
+      .main1 {
+        padding: 20px;
+      }
+      .nav1 {
+        gap: 20px;
+      }
+      
+      .nav1 a {
+        font-size: 30px;
+      }
+      
+      .main1 h4 {
+        font-size: 45px;
+      }
+    
+      .main1 p {
+        font-size: 27px;
+        font-weight: bold;
+      }
+      .main1 h5,
+      h6 {
+        font-size: 35px;
+      }  
+      .article1 img {
+        height: 250px;
+        width: 550px;
+      }
+        /* style for andamanpage */
+        .main2 {
+            padding: 20px;
+          }
+          .main2 h4 {
+            font-size: 45px;
+          }
+          
+          .main2 p {
+            font-size: 27px;
+            color: brown;
+            font-weight: bold;
+          }
+          .main2 h5,
+          h6 {
+            font-size: 35px;
+          }
+          /* style for singaporepage */
+                  .main3 {
+            padding: 20px;
+          }
+          .main3 h4 {
+            font-size: 45px;
+          }
+          
+          .main3 p {
+            font-size: 27px;
+            color: beige;
+            font-weight: bold;
+          }
+          .main3 h5,
+          h6 {
+            font-size: 35px;
+          }
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+
+
