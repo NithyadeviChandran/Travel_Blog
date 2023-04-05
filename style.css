@@ -223,7 +223,7 @@ h6 {
       footer {
         background-size: 350px;
         background-position: center;
-        font-size: 40px;
+        font-size: 30px;
       }
       /* style for cretepage */
       .header1 {
@@ -232,7 +232,7 @@ h6 {
         padding: 20px;
       }
       .main1 {
-        padding: 20px;
+        height: 100%;
       }
       .nav1 {
         gap: 20px;
@@ -241,7 +241,13 @@ h6 {
       .nav1 a {
         font-size: 30px;
       }
-      
+
+      .main1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
       .main1 h4 {
         font-size: 45px;
       }
@@ -253,6 +259,7 @@ h6 {
       .main1 h5,
       h6 {
         font-size: 35px;
+        
       }  
       .article1 img {
         height: 250px;
@@ -285,7 +292,7 @@ h6 {
           
           .main3 p {
             font-size: 27px;
-            color: beige;
+            color: white;
             font-weight: bold;
           }
           .main3 h5,
@@ -297,7 +304,114 @@ h6 {
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+ /* style sheet for index page */
+ .header {
+    height: 250px;
+    font-size: 100px;
+  }
+  .nav {
+   justify-content: space-evenly;
+  }
+  
+  .nav a {
+    color: white;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .nav a:hover{
+    opacity: 0.5s;
+    color: crimson;
+  }
+
+  .main h4 {
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+  }
+  footer {
+    background-size: 250px 100px;
+    background-position: center;
+    font-size: 30px;
+    text-align: end;
+    padding: 20px;
+  }
+  /* style for cretepage */
+  .header1 {
+    height: 200px;
+    font-size: 80px;
+    padding: 20px;
+  }
+  .main1 {
+    display: flex;
+    text-align: justify;
+  }
+  .nav1 {
+    justify-content: space-evenly;
+  }
+
+  .nav1 a {
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .main1 h4 {
+    font-size: 45px;
+  }
+  .main1 p {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+  }
+  .main1 h5,h6 {
+    font-size: 25px;
+  }  
+  .article1 img {
+    height: 700px;
+    width: 500px;   
+  }
+    /* style for andamanpage */
+    .main2 {
+        display: flex;
+        flex-direction: row;
+        text-align: justify;
+      }
+      .main2 h4 {
+        font-size: 45px;
+      }
+      
+      .main2 p {
+        font-size: 20px;
+        font-weight: bold;
+        padding: 20px;
+      }
+      .main2 h5,
+      h6 {
+        font-size: 25px;
+      }
+      /* style for singaporepage */
+      .main3 {
+        display: flex;
+        flex-direction: row;
+        text-align: justify;
+      }
+      .main3 h4 {
+        font-size: 45px;
+      }
+      
+      .main3 p {
+        font-size: 20px;
+        font-weight: bold;
+        padding: 20px;
+        color: white;
+      }
+      .main3 h5,
+      h6 {
+        font-size: 25px;
+      }
+
+}
 
 
 
