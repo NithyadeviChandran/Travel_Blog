@@ -1,35 +1,201 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
-body{
-    height: 100vh;
-    width: 100vw;
+body {
+  height: 100vh;
+  width: 100vw;
 }
 
-header{
-    height: 100px;
-    width: 100%;
-    background-color: black;
-    color: white;
-    text-align: center;
-    font-size: 40px;
-    font-family: cursive;
-    padding: 20px;
+.header {
+  height: 150px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  font-family: cursive;
+  padding: 20px;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 10px;
 }
 
-.main{
-    height: 100%;
-    background-image: url("Travelpage.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.nav a {
+  color: white;
+  font-size: 20px;
+  border-bottom: 12px;
 }
 
-footer{
-    height: 100px;
-    background-color: black;
+.main {
+  height: 100%;
+  background-image: url("Travelpage.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main h4 {
+  font-size: 30px;
+  font-family: fantasy;
+  margin-top: 50px;
+}
+.article {
+  height: 300px;
+  width: 300px;
+}
+
+.article img {
+  height: 200px;
+  width: 200px;
+  border: 2px solid brown;
+}
+
+.article a {
+  color: rgb(206, 23, 154);
+  font-size: 20px;
+}
+footer {
+  height: 100px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-family: cursive;
+  text-align: end;
+  background-image: url("footprint.jpeg");
+  background-repeat: no-repeat;
+  background-size: 150px;
+  background-position: center;
+}
+
+.header1 {
+  height: 150px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  font-family: cursive;
+  padding: 10px;
+}
+
+.nav1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 10px;
+}
+
+.nav1 a {
+  color: white;
+  font-size: 20px;
+}
+.main1 {
+  height: 100%;
+  background-image: url("creteimage.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.main1 h4 {
+  font-family: cursive;
+  color: rgb(2, 61, 2);
+  font-size: 25px;
+}
+
+.main1 p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.main1 h5,
+h6 {
+  font-family: sans-serif;
+  color: black;
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+.article1 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.article1 img {
+  height: 200px;
+  width: 250px;
+  border: 2px solid brown;
+}
+
+.main2 {
+  height: 100%;
+  background-image: url("andamanbck.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.main2 h4 {
+  font-family: cursive;
+  color: rgb(2, 61, 2);
+  font-size: 25px;
+}
+
+.main2 p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(221, 33, 65);
+}
+.main2 h5,
+h6 {
+  font-family: sans-serif;
+  color: black;
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+.main3 {
+  height: 100%;
+  background-image: url("merlion.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.main3 h4 {
+  font-family: cursive;
+  color: rgb(2, 61, 2);
+  font-size: 25px;
+}
+
+.main3 p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.main3 h5,
+h6 {
+  font-family: sans-serif;
+  color: black;
+  font-size: 15px;
+  text-decoration: underline;
 }
